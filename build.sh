@@ -10,9 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-for i in hyprland xdg-desktop-portal-hyprland hypridle hyprcursor hyprlock hyprutils nwg-panel mosh ; do
-  dnf install -y $i ;
-done
+dnf5 install -y hyprland xdg-desktop-portal-hyprland hypridle hyprcursor hyprlock hyprutils nwg-panel mosh @kde-desktop
 
 # Use a COPR Example:
 #
