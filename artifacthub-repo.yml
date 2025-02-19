@@ -3,6 +3,6 @@
 # Examples: https://artifacthub.io/packages/search?ts_query_web=ublue&sort=relevance&page=1 
 
 repositoryID: 4fd8c314-1898-4e2a-9b70-4aaad4e47c0a # Fill in with your own credentials 
-owners: bazzite-hyprland # (optional, used to claim repository ownership)
+owners: ndowens@artixlinux.org # (optional, used to claim repository ownership)
   - name: Nathan
     email: ndowens@artixlinux.org
