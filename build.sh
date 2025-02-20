@@ -11,7 +11,7 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 install -y hyprland xdg-desktop-portal-hyprland hypridle hyprcursor hyprlock hyprutils nwg-panel mosh @kde-desktop plasma-workspace-x11 @base-x
-dnf5 remove xorg-x11-drv-nouveau
+dnf5 remove -y xorg-x11-drv-nouveau
 
 #Add username
 useradd -mG wheel ndowens
